@@ -35,4 +35,5 @@ Temporary Items
 _site
 Gemfile
 Gemfile.lock
+.idea
 
