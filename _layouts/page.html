@@ -50,12 +50,12 @@ layout: default
                 {% endif %}
 
                 <!-- Friends Blog -->
-                {% if site.friends %}
+                {% if site.other_links %}
                 <hr>
-                <h5>FRIENDS</h5>
+                <h5>其他社交平台</h5>
                 <ul class="list-inline">
-                    {% for friend in site.friends %}
-                        <li><a href="{{friend.href}}">{{friend.title}}</a></li>
+                    {% for other_link in site.other_links %}
+                        <li><a href="{{other_link.href}}">{{other_link.title}}</a></li>
                     {% endfor %}
                 </ul>
                 {% endif %}
