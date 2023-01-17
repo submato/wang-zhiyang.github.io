@@ -9,6 +9,9 @@ catalog: true
 tags:
 - db
 ---
+
+个人公众号文章地址：https://mp.weixin.qq.com/s/nyN_QyvQ5M_gjmi4tbkzjQ
+
 > 引言：众所周知，高并发会打挂mysql，那么mysql是怎么挂的？是io挂？mysql集群挂？还是mysql服务进程挂？还是单纯进程处理变慢？
 
 # proxy
